@@ -1,0 +1,32 @@
+#pragma once
+#include <glm/glm.hpp>
+#include <vector>
+#include <memory>
+#include <functional>   // <-- NEW
+
+#include "../core/Mesh.hpp"
+
+//enum class TriggerAction { NONE, TELEPORT, PRINT_MESSAGE }; // optional, not needed for Approach 3
+
+class Player;
+
+class GameObject {
+public:
+    glm::vec3 position;
+    std::vector<std::shared_ptr<Mesh>> lodMeshes;
+    bool hasCollision = true;
+    glm::vec3 halfExtents = glm::vec3(0.5f);
+
+    // Trigger system
+    bool isTrigger = false;
+    bool triggerFired = false;
+    std::function<void(class Player&)> onTriggerEnter;   // <-- NEW
+    void draw(int lodLevel) const;
+    bool isAnimated = false;
+    bool isOpen = false;
+    float openAngle = 90.0f;          // degrees to rotate when open
+    float animationSpeed = 2.0f;      // rotation speed factor
+    float currentRotation = 0.0f;     // current rotation in degrees
+    glm::vec3 rotationAxis = glm::vec3(0.0f, 1.0f, 0.0f); // hinge axis
+    glm::vec3 hingeOffset = glm::vec3(0.0f); // offset from position (if needed)
+};
