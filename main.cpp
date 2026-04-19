@@ -515,9 +515,7 @@ int main() {
 
             // Clamp to avoid overshoot
             if (fabs(diff) < 0.1f) obj.currentRotation = targetRotation;
-
-            // Update collision AABB? For simplicity, we keep static AABB.
-            // For proper collision, you'd need to update the AABB each frame.
+            
         }
 
         // Camera update
@@ -578,7 +576,7 @@ int main() {
             } else if (obj.hasCollision) {
                 color = glm::vec3(1.0f, 0.0f, 0.0f); // red = solid
             } else {
-                color = glm::vec3(0.5f, 0.5f, 0.5f); // grey = decoration
+                color = glm::vec3(0.5f, 0.5f, 0.5f); // grey = non-solid
             }
 
             glm::mat4 model = glm::mat4(1.0f);
