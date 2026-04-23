@@ -1,4 +1,4 @@
-## Current version: BETA v0.0.00
+## Current version: Stable v0.0.00
 # Openworld
 **Openworld is a game made from scratch with OpenGL API. To be used as an template for an engine or games.**
 
