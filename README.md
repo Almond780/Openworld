@@ -10,6 +10,8 @@ I used QT creator with some packages in ArchLinux but if you want to run this en
 
 As i said before im running a MX330 you can remove __NV_PRIME_RENDER_OFFLOAD=1 & __GLX_VENDOR_LIBRARY_NAME=nvidia if you don't want nividia v-sync.
 
+**Its highly recommended to put v-sync on at 60fps no higher becuase if so the engine will break shuch as deltatime, loading screen and ect.**
+
 ## Credit
 With crediting my work, I recommend to do the same as below.
 
