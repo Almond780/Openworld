@@ -12,6 +12,21 @@ As i said before im running a MX330 you can remove __NV_PRIME_RENDER_OFFLOAD=1 &
 
 **Its highly recommended to put v-sync on at 60fps no higher becuase if so the engine will break shuch as deltatime, loading screen and ect.**
 
+## Versions
+
+There will be many versions of this project and realese stages. So in that I will add a version history & types of versions.
+The version are in a v/major/minor/patch/ format for example if i added a optimization trick for the MX330 that will be minor.
+
+### Version History
+Openworld v1.0.00 (work in proggress)
+Efficient additions and more costimizable additions such as lava and many more.
+
+Openworld BETA (4/20) <--- Released date
+The fundementals of the openworld engine shuch as doors, walls, AABB, Cubes and ect
+### VEE
+**VEE stands for (V)ery (E)fficient (E)ngine** becuase the MX330 is a mobile GPU from 2020 this engine version is for those GPUs or iGPUs. Think of it as a extremly efficient 3D mobile game engine.
+(Work in proggress)
+
 ## Credit
 With crediting my work, I recommend to do the same as below.
 
