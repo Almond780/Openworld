@@ -27,6 +27,17 @@ The fundementals of the openworld engine shuch as doors, walls, AABB, Cubes and 
 **VEE stands for (V)ery (E)fficient (E)ngine** becuase the MX330 is a mobile GPU from 2020 this engine version is for those GPUs or iGPUs. Think of it as a extremly efficient 3D mobile game engine.
 (Work in proggress)
 
+## Games
+These are game that are created by the game engine.
+**FreeRun** (work in progress)
+An obby style game where there is checkpoints & levels with clean movement.
+
+**DenLore** (work in progress + the name might be changed)
+Skyrim style game but inside this engine.
+
+**The Backrooms** (work in progress)
+The Backrooms with chunk generating like minecraft.
+
 ## Credit
 With crediting my work, I recommend to do the same as below.
 
