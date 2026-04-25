@@ -1,4 +1,4 @@
-## Current version: Stable v0.0.00
+## Current version: v1.0.00
 # Openworld
 **Openworld is a game engine from scratch with OpenGL API. To be used as an template for games.**
 
@@ -18,7 +18,7 @@ There will be many versions of this project and realese stages. So in that I wil
 The version are in a v/major/minor/patch/ format for example if i added a optimization trick for the MX330 that will be minor.
 
 ### Version History
-Openworld v1.0.00 (work in proggress)
+Openworld v1.0.00 (4/24)
 Efficient additions and more costimizable additions such as lava and many more.
 
 Openworld BETA (4/20) <--- Released date
